@@ -51,6 +51,7 @@ color:#fff;
 letter-spacing: 1px;
 }
 
+
 .header-p p,
  .header-p i{
   color: rgba(255, 255, 255, 0.508);
@@ -135,13 +136,17 @@ strong{
   line-height:3rem;
   margin-bottom: 80px;
 }
+footer{
+  margin-bottom: 70px;
+
+}
 
 .my-work p{
-  font-size: 90%;
+  font-size: 120%;
   line-height:1.5rem;
   letter-spacing: 1px;
   word-spacing: 2px;
-  color: rgba(255, 255, 255, 0.508);
+  color: rgba(255, 255, 255, 0.857);
 }
 .my-work-one{
   border-top: 5px solid rgba(237, 15, 45, 0.761);
@@ -362,6 +367,7 @@ letter-spacing: 1px;
 }
 
     #contact{
+      
         font-size: 90%;
     }
 
@@ -370,6 +376,8 @@ letter-spacing: 1px;
      font-size: 90%;
       
     }
+
+
     #head-p{
       font-size:200%;
       padding-left: 20px;
@@ -433,6 +441,7 @@ letter-spacing: 1px;
     .my-work-two{
       padding-top: 30px;
       margin-top: 30px;
+    
      
     }
 
