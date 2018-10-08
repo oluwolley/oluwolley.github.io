@@ -1,370 +1,109 @@
-@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Prompt);
+
+/* Basic setup*/
 
 *{
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-
-
-html,body {
-  background-color: black;
-  margin: 0px !important;
-  padding: 0px !important;
-  font-family: 'Catamaran', Arial, Helvetica, sans-serif;
-  font-weight: 300;
-  font-size: 20px;
-  text-rendering: optimizeLegibility;  
-  color:#fff;
- overflow-x: hidden;
-}
-
-
-.row{
-  max-width: 1140px;
-  margin: 0 auto;
-}
-
-
-
-/*  Header */
-header{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
   
- 
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
-.hero{
-  position: absolute;
-  max-width: 1140px;
-  top:50%;
-  left:50%;
-  transform: translate(-50%, -50%);
   
-}
+  html,body {
 
-#head-p{
-font-size:200%;
-padding-left: 90px;
-color:#fff;
-letter-spacing: 1px;
-}
+    margin: 0px !important;
+    padding: 0px !important;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;  
 
-.header-p p,
- .header-p i{
-  color: rgba(255, 255, 255, 0.508);
-     
-}
-strong{
-    color: crimson;
-}
-.header-p i{
-  padding-left:44%;
-  padding-top:60px;
-  font-size:180%;
-  
-}
-
-
-/*  Navigatiob Bar */
-.logo{
-  position: fixed;
-  top:0;
-  color:black;
-  float:left;
-  margin-top: 20px;
-
-}
-.main-nav{
-  margin-top: 30px;
- float: right;
- list-style: none;
-  
-}
-.nav-bar {
-  margin-top: 15px;
-  display:none;
-  cursor: pointer;
-  float: right;
-  
-}
-.nav-bar  i{
-  font-size: 200%;
-  color: #fff;
-
-}
-.main-nav li{
-  display: inline-block;
-  margin-left: 40px;
-}
-.main-nav li a:link,
-.main-nav li a:visited{
-  padding: 10px 0;
-  color:#fff;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size:90%;
-  border-bottom: 2px solid transparent;
-  transition: border-bottom 0.2s;
-}
-
-.main-nav li a:hover,
-.main-nav li a:active{
-  border-bottom: 2px solid rgba(237, 15, 45, 0.761);
-}
+   overflow-x: hidden;
+  }
 
 
 
-.sticky{
-  position: fixed;
-  top:0;
-  right: 60px;
-  width:100;
-  background-color: rgba(34, 34, 34, 0.118);
-}
+    /* Nav bar*/
+
+    nav li{
+        margin-right: 30px;
+        font-weight: 800;
+    }
+
+  /* Header */
 
 
-/* section */
+  header #hero{
 
-.about-me  p{
+    background-color: white;
+    line-height: 35px;
+    font-family: 'Prompt', sans-serif;
+  }
 
-  font-size: 150%;
-  letter-spacing: 1px;
-  word-spacing: 4px;
-  line-height:3rem;
-  margin-bottom: 80px;
-}
-
-.my-work p{
-  font-size: 90%;
-  line-height:1.5rem;
-  letter-spacing: 1px;
-  word-spacing: 2px;
-  color: rgba(255, 255, 255, 0.508);
-}
-.my-work-one{
-  border-top: 5px solid rgba(237, 15, 45, 0.761);
-  height: 150px;
-}
-.my-work-two ul li{
-    display: inline-block;
-    margin-left: 5%;
-    list-style: none;
-}
-.my-work img{
-  height: 100%;
-  width: 100%;
-}
-.my-work h2,.my-work-two p{
-  border-top: 5px solid transparent;
-  margin-top: 40px;
-  
-}
-.my-work-two p{
-  text-align: center;
-  text-transform: uppercase;
-}
-.my-work p,.my-work-two ul{
-  margin-top: 30px;
-  margin-bottom: 60px;
-  
-}
-
-/* Footer And contact  */
-
-
-.contact ul li{
-  display: inline-block;
-  
-    list-style: none;
-}
-#git{
-  margin-left: 30px;
-}
-.contact a{
-  text-decoration: none;
-  color: #fff;
-}
-.contact h5{
-  margin-bottom: 20px;
-  letter-spacing: 3px;
-  color: rgba(255, 255, 255, 0.508);
-}
-
-small, ul{
-  margin-bottom: 5 0px;
-}
-
-
-
-
-
-/* Big Tablet to 1200px*/
-@media only screen and (max-width: 1200px){
   .hero{
-    position: absolute;
-    max-width: 100%;
-    padding: 0 2%;
-   top:50%;
-   left:50%;
-   transform: translate(-50%, -50%);
+
+    margin: 4% 0;
   }
 
-  .row{
-    padding:0 2%;
-  }
-
-
-
-  html,body{
-    font-size: 18px;
+  header strong{
+      color:#1CBFE2;
   }
   
 
+  /*Works and  sections*/
 
-/* Small Tablets - Big Tablets  from 767px - 1023px*/
-@media only screen and (max-width: 1023px){
-  
-html,body{
-  font-size: 18px;
+
+section h3{
+
+    margin: 3% 0;
 }
+  .my-works .first-section
+{
 
-
-.header-p i{
-  font-size: 180%;
-}
-#head-p{
-font-size:200%;
-padding-left: 80px;
-color:#fff;
-letter-spacing: 1px;
-}
-
-.about-me  p{
-  font-size: 120%;
-  letter-spacing: 1px;
-  word-spacing: 4px;
-  line-height:2rem;
-  margin-bottom: 50px;
-}
-
-.about-me h2{
-  padding-bottom: 20px;
-}
-.contact ul li{
-  display: inline-block;
-  margin-left:0;
-  list-style: none;
-}
-
-.my-work img{
-  padding-top: 0px;
-  height: 100px;
-  width:100px;
-}
-
-}
-
-
-
-/* Small Phones to Small Tablets from 480px - 767*/
-@media only screen and (max-width: 767px){
-  html{
-    font-size: 16px;
-  }
-  .row,.hero{
-    padding:0 4%;
-  }
-  .col{
-    width: 100%;
-  }
-  .main-nav{
-    float: left;
-    margin-left: 70%;
-    display: none;
-  }
-  
-  .my-work h2{
-    margin-top: 5px;
+    background-image: url("../img/Checkout.png");
+    background-size: cover; 
+    opacity: 0.8;
+    background-position: center;
+    border-radius: 10px;
+    width:100%;
+    height: 100%;
+    cursor: pointer;
    
   }
-    .nav-bar{
-        margin-top:6%;
-        display: inline-block;
-    }
-    .main-nav li{
-        display: block;
-        padding-top: 10px;
-        margin-left: 0px;
-    }
 
-  .my-work p
+  .my-works .first-section:hover
   {
   
-    line-height:1.3rem;
-  }
-  
-  .my-work-two p{
-     color: #fff;
-  }
-  .my-work ul li{
-    display: inline-block;
-    margin-left: 20px;
-    list-style: none;
-}
-
-  
-  .my-work img{
-    padding-top: 0px;
-    height: 100px;
-    width: 100px;
+      opacity: 1;
+      transform:scale(1.03);
+      
   }
 
 
+  .my-works .second-section{
 
-  .about-me  p{
-
-    font-size: 90%;
-    letter-spacing: 1px;
-    word-spacing: 4px;
-    line-height:2rem;
-    margin-bottom: 10px;
+    background-image: url("../img/indoor.png");
+    background-size: cover; 
+    border-radius: 10px;
+    opacity: 0.8;
+    background-position: center;
+    width:100%;
+    height: 100%;
+    cursor: pointer;
+  
   }
+  .my-works .second-section:hover
+  {
   
-  .about-me h2{
-    padding-bottom: 10px;
+      opacity: 1;
+      transform:scale(1.03);
+      
   }
 
-.header-p i{
-  font-size: 100%;
-}
-    
-#head-p{
-font-size:250%;
-padding-left: 20px;
-color:#fff;
-letter-spacing: 1px;
-}
 
-.main-nav li a:hover,
-.main-nav li a:active{
-  color: crimson;
- border-bottom: transparent;
-}
-  
-  
+  .my-works .third-section{
 
-.my-work > div{
- 
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-    #contact{
-        font-size: 90%;
-    }
-
+<<<<<<< HEAD
     .contact div ul{
      
      font-size: 90%;
@@ -382,86 +121,95 @@ letter-spacing: 1px;
     height: 5%;
 }
     
-    
-}
-
-   
-
-
-
-
-/* Small Phones from 0 to 480px*/
-@media only screen and (max-width: 480px){
-  html,body{
-    font-size: 14px;
-  }
-
-  .hero{
-    position: absolute;
-    max-width: 1140px;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
+=======
+    background-image: url("../img/PassportOffice.png");
+    background-size: cover; 
+    border-radius: 10px;
+    opacity: 0.8;
+    background-position: center;
+    width:100%;
+    cursor: pointer;
+>>>>>>> cfd5bcba35d43ae9c1afafb77d4d7cbf646dca5c
     
   }
- 
-  .my-work img{
-    height: 80px;
-    width: 80px;
-    
-   
-  }
 
-  .my-work-two ul li img{
-    display: block;
-  }
-  #git{
-    padding-left:15px;}
+  .my-works .third-section:hover
+  {
   
+      opacity: 1;
+      transform:scale(1.03);
+  }
 
-    .col{
-      width: 100%;
-    }
+  .my-works .forth-section{
 
-    .contact h5{
+    background-image: url("../img/ominifood.png");
+    background-size: cover; 
+    border-radius: 10px;
+    opacity: 0.8;
+    background-position: center;
+    width:100%;
+    height: 100%;
+    cursor: pointer;
+  }
 
-      margin-bottom: 10px;
-      letter-spacing: 1px;
-      color: rgba(255, 255, 255, 0.508);
-    }
-
-    .my-work-two{
-      padding-top: 30px;
-      margin-top: 30px;
+  .my-works .forth-section:hover
+  {
+  
+      opacity: 1;
+      transform:scale(1.03);
+      
+  }
+  .first-section  a, 
+  .forth-section a,
+  .third-section a{
+      display: block;
+      text-decoration: none;
      
-    }
-
-    .my-work-one p{
-      padding-top: 0;
-      margin-top: 20px;
-      
-      
-    }
-    .header-p{
-      padding: 0;
-      font-size: 100%;
-    } 
-    
-  
-#head-p{
-font-size:200%;
-padding-left: 0px;
-color:#fff;
-letter-spacing: 1px;
-}
-
-
-.logo{
-  width:10%;
-  height: 10%;
-}
-
+   
+  }
  
 
+    .first-section a:hover,
+    .forth-section a:hover,
+    .third-section a:hover {
+        text-decoration: none;
+    }
 
-}}
+  .my-works .content{
+      padding: 30%;
+      text-align: center;
+      color: #000;
+      border-radius: 10px;
+      font-weight: 800;
+  }
+
+  /* Footer ssection*/
+
+  footer, .container-two{
+      margin-top: 1%;
+  }
+
+  footer ul li{
+    display: inline-block;
+      list-style: none;
+  }
+  footer li{
+      margin-right: 20px;
+  }
+
+  footer a{
+    text-decoration: none;
+    color: #000;
+  }
+  footer p{
+      margin-top: 2%;
+  }
+
+  footer ul{
+    margin-top: 8%;
+}
+
+  footer a:hover{
+    text-decoration: none;
+    color: #1CBFE2;
+  }
