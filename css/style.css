@@ -16,8 +16,8 @@
     font-family: 'Prompt', sans-serif;
     font-weight: 300;
     font-size: 20px;
+   
     text-rendering: optimizeLegibility;  
-
    overflow-x: hidden;
   }
 
@@ -62,7 +62,7 @@ section h3{
 
     background-image: url("../img/Checkout.png");
     background-size: cover; 
-    opacity: 0.8;
+    opacity: 0.89;
     background-position: center;
     border-radius: 10px;
     width:100%;
@@ -71,6 +71,10 @@ section h3{
    
   }
 
+section .first-p{
+    font-weight: 500;
+    font-size: 30px;
+}
   .my-works .first-section:hover
   {
   
@@ -82,10 +86,10 @@ section h3{
 
   .my-works .second-section{
 
-    background-image: url("../img/indoor.png");
+    background-image: url("../img/epay.JPG");
     background-size: cover; 
     border-radius: 10px;
-    opacity: 0.8;
+    opacity: 0.89;
     background-position: center;
     width:100%;
     height: 100%;
@@ -103,33 +107,14 @@ section h3{
 
   .my-works .third-section{
 
-<<<<<<< HEAD
-    .contact div ul{
-     
-     font-size: 90%;
-      
-    }
-    #head-p{
-      font-size:200%;
-      padding-left: 20px;
-      color:#fff;
-      letter-spacing: 1px;
-      }
-      
-.logo{
-    width:5%;
-    height: 5%;
-}
-    
-=======
-    background-image: url("../img/PassportOffice.png");
+    background-image: url("../img/LushEvent.png");
     background-size: cover; 
     border-radius: 10px;
-    opacity: 0.8;
+    opacity: 0.89;
     background-position: center;
     width:100%;
     cursor: pointer;
->>>>>>> cfd5bcba35d43ae9c1afafb77d4d7cbf646dca5c
+
     
   }
 
@@ -145,8 +130,8 @@ section h3{
     background-image: url("../img/ominifood.png");
     background-size: cover; 
     border-radius: 10px;
-    opacity: 0.8;
-    background-position: center;
+    opacity: 0.89;
+    background-position: top;
     width:100%;
     height: 100%;
     cursor: pointer;
@@ -161,7 +146,8 @@ section h3{
   }
   .first-section  a, 
   .forth-section a,
-  .third-section a{
+  .third-section a,
+  .second-section a{
       display: block;
       text-decoration: none;
      
@@ -171,7 +157,8 @@ section h3{
 
     .first-section a:hover,
     .forth-section a:hover,
-    .third-section a:hover {
+    .third-section a:hover,
+    .second-section a:hover{
         text-decoration: none;
     }
 
@@ -213,3 +200,67 @@ section h3{
     text-decoration: none;
     color: #1CBFE2;
   }
+
+
+
+
+
+/* Big Tablet to 1200px*/
+@media only screen and (max-width: 1200px){
+}
+
+
+/* Small Tablets - Big Tablets  from 767px - 1023px*/
+@media only screen and (max-width: 1023px){
+  
+      html,body {
+    margin: 4px !important;
+    padding: 4px !important;
+    font-family: 'Prompt', sans-serif;
+   overflow-x: hidden;
+  }
+
+}
+
+
+
+/* Small Phones to Small Tablets from 480px - 767*/
+@media only screen and (max-width: 767px){
+  
+      html,body{
+    margin: 4px !important;
+    padding: 4px !important;
+    font-family: 'Prompt', sans-serif;
+   overflow-x: hidden;
+  }
+    
+    
+}
+
+   
+
+
+
+
+/* Small Phones from 0 to 480px*/
+@media only screen and (max-width: 480px){
+     
+  html,body {
+
+    margin: 4px !important;
+    padding: 4px !important;
+    font-family: 'Prompt', sans-serif;
+   overflow-x: hidden;
+  }
+ }
+
+
+
+
+
+
+
+
+
+
+
