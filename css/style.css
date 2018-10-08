@@ -31,7 +31,7 @@
 
   header #hero{
 
-    line-height: 35px;
+  
     font-family: 'Prompt', sans-serif;
   }
 
@@ -42,7 +42,8 @@
 
 .hero h3{
      margin-bottom: 2%;
-     font-weight: 700;
+     font-weight: 800;
+      font-size:30px;
 
 }
 
