@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Prompt);
+@import url('http://fonts.googleapis.com/css?family=Prompt');
 
 /* Basic setup*/
 
@@ -13,7 +13,7 @@
 
     margin: 0px !important;
     padding: 0px !important;
-    font-family: 'Prompt', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;  
